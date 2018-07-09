@@ -1,0 +1,3 @@
+Example usage
+
+docker run -ti --name scala212.3 -v /home/adrian/Dropbox/idium/growth-house/SparkCookJob:/dupa -v /home/adrian/Dropbox/idium/growth-house/m2share:/root/.m2 astachurski/scalabuilder
