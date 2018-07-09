@@ -1,3 +1,6 @@
 Example usage
 
+- First mount (-v) should contain valid SBT Scala application
+- Second mount (-v) is optional - shows how to use Maven local repository so that Scala application can pull dependencies from host. For remote Maven repos - it works as usually.
+
 docker run -ti --name scala212.3 -v /home/adrian/Dropbox/idium/growth-house/SparkCookJob:/dupa -v /home/adrian/Dropbox/idium/growth-house/m2share:/root/.m2 astachurski/scalabuilder
